@@ -1,0 +1,6 @@
+Main Project: Spring Security spring-security-oauth-2-4-migrate
+Reference Project: spring-security-oauth-example (This does not work in spring 5) kept only for reference
+
+POST: http://localhost:8090/oauth/authorize?grant_type=authorization_code&response_type=code&client_id=messaging-client&state=1234
+POST: http://messaging-client:secret@localhost:8090/oauth/token?grant_type=password&scope=message.read&username=user1&password=password
+https://github.com/spring-projects/spring-security/wiki/OAuth-2.0-Migration-Guide
